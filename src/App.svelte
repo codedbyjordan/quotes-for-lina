@@ -28,7 +28,7 @@
     "AirPods with a folder.",
   ];
 
-  let quote = quotes[Math.ceil(Math.random() * quotes.length - 1)];
+  let quote = quotes[Math.ceil(Math.random() * quotes.length)];
 </script>
 
 <main
