@@ -16,6 +16,10 @@
     "Websta...",
     "Get it mac, mac, mac, mac, mac, mac, mac",
     "Too many bottles of this wine we can't pronounce.",
+    "Mwah!!!",
+    "*thinking face*",
+    "RAHHHHH...just kidding...",
+    "Oh boy...",
   ];
 
   let quote = quotes[Math.ceil(Math.random() * quotes.length - 1)];
