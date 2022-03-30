@@ -1,6 +1,4 @@
 <script lang="ts">
-  import { onMount } from "svelte";
-
   import { reveal } from "svelte-reveal";
 
   const quotes = [
