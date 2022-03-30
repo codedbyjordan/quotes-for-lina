@@ -20,6 +20,14 @@
     "*thinking face*",
     "RAHHHHH...just kidding...",
     "Oh boy...",
+    "Rolls royce",
+    "Monty and Squidy and Froggy and Jimbo and Jigglypuff and Scrubby",
+    "That's literally Kirby...",
+    "Play chocolate!!!",
+    "I loves you mostest.",
+    "Me when I outta",
+    "Who's Dick Cheney?",
+    "AirPods with a folder.",
   ];
 
   let quote = quotes[Math.ceil(Math.random() * quotes.length - 1)];
