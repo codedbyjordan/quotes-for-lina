@@ -1,0 +1,34 @@
+<script lang="ts">
+  import { onMount } from "svelte";
+
+  import { reveal } from "svelte-reveal";
+
+  const quotes = [
+    "You have the most beautiful personality.",
+    "You make me the happiest person alive.",
+    "The shape of your eyes is so pretty.",
+    "Thank you for being you.",
+    "Please don't ever change for anyone.",
+    "I'm always thinking of you.",
+    "What's on your mind?",
+    "I'll be here you for always.",
+    "It's squidy!!!",
+    "Websta...",
+    "Get it mac, mac, mac, mac, mac, mac, mac",
+    "Too many bottles of this wine we can't pronounce.",
+  ];
+
+  let quote = quotes[Math.ceil(Math.random() * quotes.length - 1)];
+</script>
+
+<main
+  class="w-full h-screen flex justify-center items-center font-hurricane flex-col bg-black text-center"
+>
+  <h2 class="text-white text-3xl md:text-4xl">Dear Lina,</h2>
+  <h1
+    class="text-[#d4af37] text-4xl md:text-6xl"
+    use:reveal={{ duration: 1250 }}
+  >
+    {quote}
+  </h1>
+</main>
