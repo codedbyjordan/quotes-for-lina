@@ -28,7 +28,13 @@
     "AirPods with a folder.",
   ];
 
-  let quote = quotes[Math.ceil(Math.random() * quotes.length - 1)];
+  const rollQuote = () => {
+    return quotes[Math.ceil(Math.random() * quotes.length - 1)]
+  }
+
+  let quote = rollQuote();
+  while(quote === localStorage.getItem('quote')) quote = rollQuote();
+  localStorage.setItem('quote', quote);
 </script>
 
 <main
