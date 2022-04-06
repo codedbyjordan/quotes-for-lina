@@ -26,6 +26,9 @@
     "Me when I outta",
     "Who's Dick Cheney?",
     "AirPods with a folder.",
+    "Without being attracted to any of them",
+    "Bitch my name is Johnny",
+    "It's all peaches and cream"
   ];
 
   const rollQuote = () => {
